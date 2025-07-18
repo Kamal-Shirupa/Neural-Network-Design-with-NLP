@@ -39,14 +39,11 @@ Key packages:
 
 ## ⚙️ Usage
 
-### 1. Run from the Command Line
+###  Run from the Command Line
 ```
 python src/main.py
 ```
 You will be prompted for a model description and language code.
-
-### 2. Try the Demo Notebook
-Open [notebooks/demo_run.ipynb](notebooks/demo_run.ipynb) in Jupyter for a step-by-step, interactive example.
 
 ## 📄 Sample Input
 
@@ -84,4 +81,3 @@ Distributed under the MIT License.
 Kamal-Shirupa
 
 **For a detailed walkthrough, see the sample files and demo notebook. If you have questions or want to contribute, please create an issue or pull request.**
-```
