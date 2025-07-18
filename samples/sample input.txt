@@ -1,0 +1,17 @@
+Describe your model architecture in one sentence, e.g.:
+Text classification with 5 layers, GRU, dropout 0.2, 3 output classes.
+
+Enter model description: 10 layers ,GRU , dropout 0.3 , 5 output classes ,channels 4
+
+Supported languages:
+en: English
+fr: French
+es: Spanish
+de: German
+hi: Hindi
+te: Telugu
+ja: Japanese
+zh-cn: Chinese (Simplified)
+ru: Russian
+
+Enter 2-letter language code (e.g., 'hi' for Hindi, 'te' for Telugu) or press Enter for English: en

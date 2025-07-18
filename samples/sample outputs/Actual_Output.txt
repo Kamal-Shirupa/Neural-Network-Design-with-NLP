@@ -1,0 +1,85 @@
+Describe your model architecture in one sentence, e.g.:
+Text classification with 5 layers, GRU, dropout 0.2, 3 output classes.
+
+Enter model description: 10 layers ,GRU , dropout 0.3 , 5 output classes ,channels 4
+
+Supported languages:
+en: English
+fr: French
+es: Spanish
+de: German
+hi: Hindi
+te: Telugu
+ja: Japanese
+zh-cn: Chinese (Simplified)
+ru: Russian
+
+Enter 2-letter language code (e.g., 'hi' for Hindi, 'te' for Telugu) or press Enter for English: en
+
+Parsed parameters:
+  task_type: text_classification
+  total_layers: 10
+  output_type: multiclass
+  num_classes: 5
+  dropout_rate: 0.3
+  rnn_type: GRU
+  activation: relu
+  pooling_type: max
+  seq_len: 100
+  vocab_size: 10000
+  embed_dim: 128
+  img_height: 64
+  img_width: 64
+  channels: 4
+  num_features: 10
+  signal_length: 128
+
+Model saved to 'model.keras'.
+Model: "sequential_3"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ embedding_3 (Embedding)         │ (None, 100, 128)       │     1,280,000 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ gru_3 (GRU)                     │ (None, 64)             │        37,248 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_12 (Dense)                │ (None, 128)            │         8,320 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_9           │ (None, 128)            │           512 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_6 (Dropout)             │ (None, 128)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_13 (Dense)                │ (None, 64)             │         8,256 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_10          │ (None, 64)             │           256 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_7 (Dropout)             │ (None, 64)             │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_14 (Dense)                │ (None, 32)             │         2,080 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_11          │ (None, 32)             │           128 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_15 (Dense)                │ (None, 5)              │           165 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 1,336,965 (5.10 MB)
+ Trainable params: 1,336,517 (5.10 MB)
+ Non-trainable params: 448 (1.75 KB)
+
+✅ Generated model architecture:
+
+
+
+Model Description (English):
+This is a text classification model with:
+- 10 total layers
+- multiclass output type
+- 5 output classes
+- Dropout rate: 0.3
+- Activation function: relu
+- Using GRU layers
+- Sequence length: 100
+- Vocabulary size: 10000
+- Embedding dimension: 128

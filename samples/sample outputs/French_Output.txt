@@ -1,0 +1,11 @@
+Model Description (French):
+Ceci est un modèle de classification de texte avec:
+- 10 couches totales
+- Type de sortie multiclasse
+- 5 classes de sortie
+- Taux d'abandon: 0,3
+- Fonction d'activation: relu
+- Utilisation de couches GU
+- Longueur de séquence: 100
+- Taille du vocabulaire: 10000
+- Dimension d'intégration: 128

@@ -1,0 +1,15 @@
+✅ Generated model architecture:
+
+
+
+Model Description (English):
+This is a text classification model with:
+- 10 total layers
+- multiclass output type
+- 5 output classes
+- Dropout rate: 0.3
+- Activation function: relu
+- Using GRU layers
+- Sequence length: 100
+- Vocabulary size: 10000
+- Embedding dimension: 128

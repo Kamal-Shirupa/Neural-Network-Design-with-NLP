@@ -1,0 +1,11 @@
+Model Description (German):
+Dies ist ein Textklassifizierungsmodell mit:
+- 10 Gesamtschichten
+- Multiclas -Ausgangstyp
+- 5 Ausgangsklassen
+- Ausfallrate: 0,3
+- Aktivierungsfunktion: Relu
+- mit Gruscheln mit GRU -Schichten
+- Sequenzlänge: 100
+- Wortschatzgröße: 10000
+- Dimension einbetten: 128

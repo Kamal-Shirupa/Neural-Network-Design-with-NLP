@@ -1,0 +1,11 @@
+Model Description (Spanish):
+Este es un modelo de clasificación de texto con:
+- 10 capas totales
+- Tipo de salida multiclase
+- 5 clases de salida
+- Tasa de abandono: 0.3
+- Función de activación: Relu
+- Usando capas de Gru
+- Longitud de secuencia: 100
+- Tamaño del vocabulario: 10000
+- Dimensión de incrustación: 128
