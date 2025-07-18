@@ -1,0 +1,18 @@
+{
+  "task_type": "text_classification",
+  "total_layers": 3,
+  "output_type": "binary",
+  "num_classes": 2,
+  "dropout_rate": 0.3,
+  "rnn_type": "LSTM",
+  "activation": "relu",
+  "pooling_type": "max",
+  "seq_len": 100,
+  "vocab_size": 10000,
+  "embed_dim": 128,
+  "img_height": 64,
+  "img_width": 64,
+  "channels": 3,
+  "num_features": 10,
+  "signal_length": 128
+}
