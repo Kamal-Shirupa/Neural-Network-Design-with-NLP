@@ -37,14 +37,6 @@ Key packages:
 - **autokeras:** Automated model building
 - **googletrans:** For multilingual translation
 
-## ⚙️ Usage
-
-###  Run from the Command Line
-```
-python src/main.py
-```
-You will be prompted for a model description and language code.
-
 ## 📄 Sample Input
 
 ```
