@@ -1,6 +1,6 @@
 # Google Colab Notebook (notebooks/)
 
-This directory contains Jupyter notebooks demonstrating the usage and capabilities of the Neural Network Design With NLP project.
+This directory contains Google Colab's demonstrating the usage and capabilities of the Neural Network Design With NLP project.
 
 ## Interactive Demo
 
